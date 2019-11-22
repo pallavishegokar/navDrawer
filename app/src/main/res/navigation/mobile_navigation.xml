@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.navdrawerdemo.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_newcustomer"
+        android:name="com.example.navdrawerdemo.ui.gallery.GalleryFragment"
+        android:label="New Customer "
+        tools:layout="@layout/fragment_newcustomer" />
+
+    <fragment
+        android:id="@+id/nav_customerdetails"
+        android:name="com.example.navdrawerdemo.ui.slideshow.SlideshowFragment"
+        android:label="Customer Details"
+        tools:layout="@layout/fragment_customerdetails" />
+
+    <fragment
+        android:id="@+id/nav_employeedetails"
+        android:name="com.example.navdrawerdemo.ui.tools.ToolsFragment"
+        android:label="Employee Details"
+        tools:layout="@layout/fragment_employeedetails" />
+
+    <fragment
+        android:id="@+id/nav_ongoingprojects"
+        android:name="com.example.navdrawerdemo.ui.share.ShareFragment"
+        android:label="Ongoing Project"
+        tools:layout="@layout/fragment_ongoingprojects" />
+
+    <fragment
+        android:id="@+id/nav_finishedprojects"
+        android:name="com.example.navdrawerdemo.ui.send.SendFragment"
+        android:label="Finished Project"
+        tools:layout="@layout/fragment_finishedprojects" />
+    <fragment
+        android:id="@+id/nav_send"
+        android:name="com.example.navdrawerdemo.ui.slideshow.SlideshowFragment"
+        android:label="send"
+        tools:layout="@layout/fragment_send" />
+
+    <fragment
+        android:id="@+id/nav_logout"
+        android:name="com.example.navdrawerdemo.ui.slideshow.SlideshowFragment"
+        android:label="Logout"
+        tools:layout="@layout/fragment_logout" />
+
+</navigation>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_newcustomer"
+            android:icon="@drawable/ic_person_add_black_24dp"
+            android:title="New Customer " />
+        <item
+            android:id="@+id/nav_customerdetails"
+            android:icon="@drawable/ic_visibility_black_24dp"
+            android:title="@string/menu_customerdetails" />
+        <item
+            android:id="@+id/nav_employeedetails"
+            android:icon="@drawable/ic_supervisor_account_black_24dp"
+            android:title="@string/menu_employeedetails" />
+        <item
+            android:id="@+id/nav_ongoingprojects"
+            android:icon="@drawable/ic_loop_black_24dp"
+            android:title="@string/menu_ongoingprojects" />
+        <item
+            android:id="@+id/nav_finishedprojects"
+            android:icon="@drawable/ic_assistant_photo_black_24dp"
+            android:title="@string/menu_finishedprojects" />
+    </group>
+
+    <item android:title="Notification">
+        <menu>
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/menu_send" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_lock_black_24dp"
+                android:title="@string/menu_logout" />
+        </menu>
+    </item>
+
+</menu>
